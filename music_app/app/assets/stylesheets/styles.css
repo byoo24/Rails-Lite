@@ -1,0 +1,40 @@
+body {
+    background-color: darkred;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: arial;
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-between
+}
+
+.logo {
+    color: cyan;
+}
+
+
+#main {
+    display: flex;
+    justify-content: center;
+}
+
+#main .main-container {
+    max-width: 800px;
+    text-align: center;
+}
+
+
+.content {
+    background-color: yellow;
+    padding: 30px;
+}
+
+
+.content ul {
+    padding: 0;
+    list-style: none;
+}
+
